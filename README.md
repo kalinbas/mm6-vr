@@ -4,7 +4,7 @@ A Unity 6 / Quest 2 viewer for exploring Might and Magic VI maps in VR.
 
 <video src="media/demo.mp4" controls width="100%"></video>
 
-[Open the demo video](media/demo.mp4)
+https://github.com/user-attachments/assets/c9c8d1a3-29e3-4b99-9514-0f3f5ac79bd0
 
 > This repository does not include Might and Magic VI game assets. You need a valid local MM6 installation to generate maps, textures, sprites, and the APK.
 
@@ -116,7 +116,7 @@ If `adb` says `device unauthorized`, keep the headset awake, disconnect and reco
 If the APK exists at the absolute local path used during development, this is equivalent:
 
 ```bash
-adb install -r /Users/kalinbas/Downloads/mm6hd/unity/MM6OutdoorImporter/Builds/Quest2/MM6Viewer-Quest2.apk
+adb install -r unity/MM6OutdoorImporter/Builds/Quest2/MM6Viewer-Quest2.apk
 ```
 
 ## Controls
