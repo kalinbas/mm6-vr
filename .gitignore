@@ -65,6 +65,10 @@ unity/MM6OutdoorImporter/[Bb]uilds/
 *.mp4
 *.mov
 
+# Public README demo video.
+!media/
+!media/demo.mp4
+
 # MM archive/map/media files should never be committed directly.
 *.lod
 *.LOD
