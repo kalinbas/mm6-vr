@@ -79,13 +79,36 @@ unity/MM6OutdoorImporter/Builds/Quest2/MM6Viewer-Quest2.apk
 
 ## Install On Quest 2
 
-Connect the headset over USB, accept the authorization prompt, then run:
+The APK is not committed to this public repo. Build it locally first from your own MM6 installation:
+
+```text
+unity/MM6OutdoorImporter/Builds/Quest2/MM6Viewer-Quest2.apk
+```
+
+Then install it with `adb`:
+
+1. Enable Developer Mode for the headset in the Meta Horizon mobile app.
+2. Connect the Quest 2 over USB.
+3. Put on the headset and accept the USB debugging prompt.
+4. Verify the device is visible:
+
+```bash
+adb devices
+```
+
+5. Install or update the app:
 
 ```bash
 adb install -r unity/MM6OutdoorImporter/Builds/Quest2/MM6Viewer-Quest2.apk
 ```
 
-If `adb` says `device unauthorized`, keep the headset awake and accept the USB debugging dialog inside the headset.
+If `adb` says `device unauthorized`, keep the headset awake, disconnect and reconnect USB if needed, then accept the USB debugging dialog inside the headset before retrying.
+
+If the APK exists at the absolute local path used during development, this is equivalent:
+
+```bash
+adb install -r /Users/kalinbas/Downloads/mm6hd/unity/MM6OutdoorImporter/Builds/Quest2/MM6Viewer-Quest2.apk
+```
 
 ## Controls
 
