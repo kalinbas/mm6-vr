@@ -51,10 +51,19 @@ originaldata/
 
 ## Build New Sorpigal
 
+Building New Sorpigal, any other outdoor map, indoor dungeons, or the final Quest APK requires the original MM6 game data from your own installation. The scripts read the `.LOD` archives locally and generate Unity-ready assets on your machine; those generated assets are not included in this repository.
+
 Run from the repo root:
 
 ```bash
 python3 tools/build_mm6_new_sorpigal_package.py --install-dir "originaldata/Might and Magic 6"
+```
+
+For more maps, use the other build scripts in `tools/` after placing the same original game data under `originaldata/Might and Magic 6`, for example:
+
+```bash
+python3 tools/build_mm6_outdoor_world_packages.py --install-dir "originaldata/Might and Magic 6"
+python3 tools/build_mm6_indoor_test_packages.py --install-dir "originaldata/Might and Magic 6"
 ```
 
 Open the Unity project:
