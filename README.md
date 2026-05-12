@@ -7,6 +7,8 @@ A Unity 6 / Quest 2 viewer for exploring Might and Magic VI maps in VR.
 https://github.com/user-attachments/assets/c9c8d1a3-29e3-4b99-9514-0f3f5ac79bd0
 
 > This repository does not include Might and Magic VI game assets. You need a valid local MM6 installation to generate maps, textures, sprites, and the APK.
+>
+> The demo video is included for preview only. A prebuilt APK is intentionally not distributed here, because the playable APK contains map, texture, sprite, and audio data generated from the original game files.
 
 ## What It Does
 
@@ -88,7 +90,7 @@ unity/MM6OutdoorImporter/Builds/Quest2/MM6Viewer-Quest2.apk
 
 ## Install On Quest 2
 
-The APK is not committed to this public repo. Build it locally first from your own MM6 installation:
+The APK is not committed to this public repo, even for the demo build. Build it locally first from your own MM6 installation:
 
 ```text
 unity/MM6OutdoorImporter/Builds/Quest2/MM6Viewer-Quest2.apk
@@ -118,6 +120,8 @@ If the APK exists at the absolute local path used during development, this is eq
 ```bash
 adb install -r unity/MM6OutdoorImporter/Builds/Quest2/MM6Viewer-Quest2.apk
 ```
+
+That local APK is a demo/test build, but it is still generated from original MM6 game data. To build New Sorpigal or any other map, keep your original game files local under `originaldata/Might and Magic 6` and regenerate the Unity packages/APK on your own machine.
 
 ## Controls
 
