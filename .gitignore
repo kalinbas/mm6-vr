@@ -1,0 +1,89 @@
+# macOS and local editor noise
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Python/runtime caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Original commercial MM6 install and extracted/generated game data
+originaldata/
+generated/
+exported/
+
+# Local third-party/reference checkouts. These include nested git repositories
+# and may contain bundled sample game archives.
+_refs/
+
+# Generated Unity packages built from the original MM6 data
+unity/MM6OutdoorImporter/MM6Packages/
+unity/MM6OutdoorImporter/MM6SinglePackages/
+unity/MM6OutdoorImporter/MM6IndoorPackages/
+unity/MM6OutdoorImporter/MM6SingleIndoorPackages/
+unity/MM6OutdoorImporter/Assets/MM6Imported/
+unity/MM6OutdoorImporter/Assets/MM6Imported.meta
+
+# Generated viewer assets that copy original soundtrack/catalog state
+unity/MM6OutdoorImporter/Assets/MM6Viewer/Audio/
+unity/MM6OutdoorImporter/Assets/MM6Viewer/Audio.meta
+unity/MM6OutdoorImporter/Assets/MM6Viewer/Resources/
+unity/MM6OutdoorImporter/Assets/MM6Viewer/Resources.meta
+
+# Unity generated folders and local state
+unity/MM6OutdoorImporter/[Ll]ibrary/
+unity/MM6OutdoorImporter/[Tt]emp/
+unity/MM6OutdoorImporter/[Oo]bj/
+unity/MM6OutdoorImporter/[Ll]ogs/
+unity/MM6OutdoorImporter/[Uu]ser[Ss]ettings/
+unity/MM6OutdoorImporter/MemoryCaptures/
+unity/MM6OutdoorImporter/.utmp/
+unity/MM6OutdoorImporter/*.csproj
+unity/MM6OutdoorImporter/*.sln
+unity/MM6OutdoorImporter/*.suo
+unity/MM6OutdoorImporter/*.user
+unity/MM6OutdoorImporter/*.userprefs
+unity/MM6OutdoorImporter/*.pidb
+unity/MM6OutdoorImporter/*.booproj
+
+# Unity/Android build outputs, screenshots, and captures
+unity/MM6OutdoorImporter/[Bb]uild/
+unity/MM6OutdoorImporter/[Bb]uilds/
+*.apk
+*.aab
+*.keystore
+*.mp4
+*.mov
+
+# MM archive/map/media files should never be committed directly.
+*.lod
+*.LOD
+*.snd
+*.SND
+*.vid
+*.VID
+*.odm
+*.ODM
+*.blv
+*.BLV
+*.ddm
+*.DDM
+*.dlv
+*.DLV
+*.mp3
+*.flac
+*.wav
+*.zip
+
+# Local helper binary. Keep source/scripts tracked, not downloaded tool binaries.
+tools/mmarch

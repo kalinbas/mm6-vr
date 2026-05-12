@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "com.unity.xr.management": "4.5.3",
+    "com.unity.xr.oculus": "4.5.4",
+    "com.unity.xr.openxr": "1.16.1",
+    "com.unity.modules.audio": "1.0.0",
+    "com.unity.modules.jsonserialize": "1.0.0",
+    "com.unity.modules.particlesystem": "1.0.0",
+    "com.unity.modules.physics": "1.0.0",
+    "com.unity.modules.vr": "1.0.0",
+    "com.unity.modules.xr": "1.0.0"
+  }
+}
